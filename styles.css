@@ -58,5 +58,9 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 20px;
-    padding: 0 10px 20px 10px;
+    padding: 10px 10px 20px 10px;
+}
+
+#services-2 div{
+    margin: 20px 0;
 }
