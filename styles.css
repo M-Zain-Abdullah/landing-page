@@ -52,15 +52,29 @@
 }
 
 #services-2 {
+    gap: 16px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 20px;
     padding: 10px 10px 20px 10px;
 }
 
-#services-2 div{
-    margin: 20px 0;
+.section-3 {
+    background-color: darkgrey;
+    color: white;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section-3 #quote {
+    align-self: center;
+    font-size: x-large;
 }
