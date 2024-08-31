@@ -30,6 +30,7 @@
 video {
     max-width: 500px;
     max-height: 300px;
+    border-radius: 10px;
 }
 
 #header-2 {
@@ -101,11 +102,14 @@ video {
 }
 
 #sign-up {
-    padding: 20px 200px;
+    background-color: darkslateblue;
+    padding: 20px 50px;
+    margin: auto 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-radius: 20px;
 }
 
 footer{
