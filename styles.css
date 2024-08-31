@@ -6,16 +6,30 @@
     background-color: crimson;
     color: white;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 #header {
     font-size: large;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+video {
+    max-width: 500px;
+    max-height: 300px;
 }
 
 #header-2 {
@@ -32,7 +46,7 @@
 }
 
 #header-2 p {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -41,7 +55,7 @@
     background-color: lightslategray;
     color: white;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 #services {
@@ -66,7 +80,7 @@
     background-color: darkgrey;
     color: white;
     margin: auto;
-    padding: 50px;
+    padding: 100px 50px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -77,4 +91,33 @@
 .section-3 #quote {
     align-self: center;
     font-size: x-large;
+}
+
+.section-4 {
+    background-color: crimson;
+    color: white;
+    margin: auto;
+    padding: 50px;
+}
+
+#sign-up {
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: darkslategray;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+footer a{
+    color: #3882F6
 }
